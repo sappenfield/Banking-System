@@ -7,8 +7,19 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(){
+    
+//    This project on the banking system will be a simple one in which there will be some options like :
+//
+//    Create account
+//    Deposit
+//    Withdraw
+//    Close the account
+//    Balance enquiry
+//    Exit
+    
+    
+    
+    
     return 0;
 }
