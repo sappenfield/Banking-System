@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4FA5472E2B58EA69009918E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5472D2B58EA69009918E0 /* main.cpp */; };
-		4FA547362B58EBFF009918E0 /* account-creation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA547342B58EBFF009918E0 /* account-creation.cpp */; };
+		4FA547392B59ECB4009918E0 /* BankAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA547372B59ECB4009918E0 /* BankAccount.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		4FA5472A2B58EA69009918E0 /* Banking System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Banking System"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA5472D2B58EA69009918E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		4FA547342B58EBFF009918E0 /* account-creation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "account-creation.cpp"; sourceTree = "<group>"; };
-		4FA547352B58EBFF009918E0 /* account-creation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "account-creation.hpp"; sourceTree = "<group>"; };
+		4FA547372B59ECB4009918E0 /* BankAccount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BankAccount.cpp; sourceTree = "<group>"; };
+		4FA547382B59ECB4009918E0 /* BankAccount.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BankAccount.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				4FA5472D2B58EA69009918E0 /* main.cpp */,
-				4FA547342B58EBFF009918E0 /* account-creation.cpp */,
-				4FA547352B58EBFF009918E0 /* account-creation.hpp */,
+				4FA547372B59ECB4009918E0 /* BankAccount.cpp */,
+				4FA547382B59ECB4009918E0 /* BankAccount.hpp */,
 			);
 			path = "Banking System";
 			sourceTree = "<group>";
@@ -124,8 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA547362B58EBFF009918E0 /* account-creation.cpp in Sources */,
 				4FA5472E2B58EA69009918E0 /* main.cpp in Sources */,
+				4FA547392B59ECB4009918E0 /* BankAccount.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

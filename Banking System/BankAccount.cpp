@@ -6,3 +6,16 @@
 //
 
 #include "BankAccount.hpp"
+
+
+void BankAccount::displayAccountInfo(string a){
+    for(accountNumber && pin == true){
+        return accountBalance;
+    }
+    
+    
+    
+}
+
+
+
